@@ -2,18 +2,18 @@
 
 Bio-EdIP is a friendly GUI developed in MATLAB® 2012a software. Bio-EdIP segments cell-free regions (background), detecting indirectly those regions covered by cells. It therefore allows a quantitative analysis of cell confluence levels using in vitro culture images, including but not limited to wound healing, scattered, and seeded cells.
 
-Bio-EdIP does not requiere MATLAB but it runs using Matlab Compiler Runtime (MCR v.7.8).
+Bio-EdIP does not require MATLAB but it runs using Matlab Compiler Runtime (MCR v.7.8).
 
 # Please note:
-### This GitHub repository containes the scripts used to compile Bio-EdIP
+### This GitHub repository contains the scripts used to compile Bio-EdIP
 
-### To download the compiled appliation go to https://be.itm.edu.co/ and follow the instruction below.
+### To download the compiled application go to https://be.itm.edu.co/ and follow the instruction below.
 
 <br/>
 
 ## Downloading Bio-EdIP
 
-**To make use of Bio-EdIP**, plase download “Bio-EdIP_User Manual 2017.pdf” and follow the instructions for downloading and installing Bio-EdIP.
+**To make use of Bio-EdIP**, please download “Bio-EdIP_User Manual 2017.pdf” and follow the instructions for downloading and installing Bio-EdIP.
 
 **To run Bio-EdIP**, Matlab Compiler Runtime (MCR v.7.8) is needed. This program is included when installing “Bio-EdIP.rar”. One can also install “Bio-EdIP (without MCR).rar”, if MCR is already installed in you computer.
 
