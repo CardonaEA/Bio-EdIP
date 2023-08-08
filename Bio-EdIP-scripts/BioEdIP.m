@@ -1,35 +1,35 @@
-function varargout = CellRG(varargin)
-% CELLRG MATLAB code for CellRG.fig
-%      CELLRG, by itself, creates a new CELLRG or raises the existing
+function varargout = BioEdIP(varargin)
+% BIOEDIP MATLAB code for BioEdIP.fig
+%      BIOEDIP, by itself, creates a new BIOEDIP or raises the existing
 %      singleton*.
 %
-%      H = CELLRG returns the handle to a new CELLRG or the handle to
+%      H = BIOEDIP returns the handle to a new BIOEDIP or the handle to
 %      the existing singleton*.
 %
-%      CELLRG('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in CELLRG.M with the given input arguments.
+%      BIOEDIP('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in BIOEDIP.M with the given input arguments.
 %
-%      CELLRG('Property','Value',...) creates a new CELLRG or raises the
+%      BIOEDIP('Property','Value',...) creates a new BIOEDIP or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before CellRG_OpeningFcn gets called.  An
+%      applied to the GUI before BioEdIP_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to CellRG_OpeningFcn via varargin.
+%      stop.  All inputs are passed to BioEdIP_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help CellRG
+% Edit the above text to modify the response to help BioEdIP
 
-% Last Modified by GUIDE v2.5 10-Jul-2015 20:59:08
+% Last Modified by GUIDE v2.5 08-Aug-2023 19:11:48
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @CellRG_OpeningFcn, ...
-                   'gui_OutputFcn',  @CellRG_OutputFcn, ...
+                   'gui_OpeningFcn', @BioEdIP_OpeningFcn, ...
+                   'gui_OutputFcn',  @BioEdIP_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,13 +44,13 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before CellRG is made visible.
-function CellRG_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before BioEdIP is made visible.
+function BioEdIP_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to CellRG (see VARARGIN)
+% varargin   command line arguments to BioEdIP (see VARARGIN)
 
 set(handles.figure1,'Name','Bio-EdIP version 1.1')
 set(handles.b_RunAnalysis,'Enable','off')
@@ -67,18 +67,18 @@ set(handles.b_ResetManual,'Enable','off')
 set(handles.i_Current,'xtick',[],'ytick',[])
 set(handles.i_ImSeg,'xtick',[],'ytick',[])
 
-% Choose default command line output for CellRG
+% Choose default command line output for BioEdIP
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes CellRG wait for user response (see UIRESUME)
+% UIWAIT makes BioEdIP wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = CellRG_OutputFcn(hObject, eventdata, handles) 
+function varargout = BioEdIP_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
