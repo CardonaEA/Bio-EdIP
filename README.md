@@ -21,4 +21,4 @@ Bio-EdIP does not requiere MATLAB but it runs using Matlab Compiler Runtime (MCR
 
 
 ## Reference this article
-**(*)** Cardona A, Ariza-Jiménez L, Uribe D, Arroyave J, Galeano J, Cortés-Mancera F. Bio-EdIP: An Automatic Approach for In vitro Cell Confluence Images Quantification. Computer Methods and Programs in Biomedicine (2017), doi:10.1016/j.cmpb.2017.03.026
+**(*)** Cardona A, Ariza-Jiménez L, Uribe D, Arroyave J, Galeano J, Cortés-Mancera F. Bio-EdIP: An Automatic Approach for In vitro Cell Confluence Images Quantification. Computer Methods and Programs in Biomedicine. 2017; 145:23-33. https://doi.org/10.1016/j.cmpb.2017.03.026
