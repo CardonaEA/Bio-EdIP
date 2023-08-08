@@ -17,7 +17,7 @@ Bio-EdIP does not require MATLAB but it runs using Matlab Compiler Runtime (MCR 
 
 **To run Bio-EdIP**, Matlab Compiler Runtime (MCR v.7.8) is needed. This program is included when installing “Bio-EdIP.rar”. One can also install “Bio-EdIP (without MCR).rar”, if MCR is already installed in you computer.
 
-**Please note** that Bio-EdIP user manual includes examples of use. Example images together with our annotated data can be downloaded as well (“Constructed datasets.rar”).
+**Please note** that Bio-EdIP user manual includes examples of use and a benchmark of annotated data. Example images and annotated data can be downloaded as well (“Constructed datasets.rar”).
 
 
 ## Reference this article
